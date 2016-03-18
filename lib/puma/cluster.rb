@@ -192,6 +192,7 @@ module Puma
     end
 
     def wakeup!
+puts 'wakeup! called'
       return unless @wakeup
 
       begin
